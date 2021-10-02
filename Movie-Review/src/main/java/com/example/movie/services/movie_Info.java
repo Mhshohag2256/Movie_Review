@@ -2,7 +2,6 @@ package com.example.movie.services;
 
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
 public class movie_Info {
     private String name;
     private String description;
