@@ -11,7 +11,7 @@ public class movieCatalogResource {
 
     public List<movie_Info> getCatalog(String userId){
         return Collections.singletonList(
-                new movie_Info("Full Metal Jacket","Civil war movie",8.5)
+                new movie_Info("Full Metal Jacket","Civil war movie",8)
         );
     }
 

@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class movie_Info {
     private String name;
     private String description;
-    private int rating;
+    private double rating;
 
-    public movie_Info(String name, String description, int rating) {
+    public movie_Info(String name, String description, double rating) {
         this.name = name;
         this.description = description;
         this.rating = rating;
@@ -21,7 +21,7 @@ public class movie_Info {
         return description;
     }
 
-    public int getRating() {
+    public double getRating() {
         return rating;
     }
 }
